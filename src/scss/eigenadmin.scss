@@ -9,3 +9,11 @@
   align-items: center;
   flex-direction: column;
 }
+
+.about {
+  text-align: left;
+  padding: 20px;
+  ol {
+    margin-top: 50px;
+  }
+}
