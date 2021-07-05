@@ -10,6 +10,7 @@
         {{ todo.text }}
       </li>
     </ol>
+    <i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue"></i>
   </div>
 </template>
 

@@ -4,7 +4,7 @@ import router from "./router";
 import store from "./store";
 
 import "bootstrap";
-// import "bootstrap/scss/bootstrap.scss";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "./scss/eigenadmin.scss";
 
 createApp(App).use(store).use(router).mount("#app");
