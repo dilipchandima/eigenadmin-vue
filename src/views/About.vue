@@ -17,7 +17,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "TopNavigation",
+  name: "About",
   data: function () {
     return {
       message: "You loaded this page on " + new Date().toLocaleString(),

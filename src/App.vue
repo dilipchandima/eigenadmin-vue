@@ -1,39 +1,28 @@
 <template>
-  <TopNavigation />
-  <router-view />
+  <div id="wrapper">
+    <Sidebar />
+    <div id="content-wrapper">
+      <div id="top-navigation">
+        <span>Dileepa</span>
+      </div>
+      <div class="content">
+        <router-view />
+      </div>
+      <div id="footer">
+        <p>This admin application theme is podered by eigenLABS</p>
+      </div>
+    </div>
+  </div>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import TopNavigation from "@/components/TopNavigation.vue";
+import Sidebar from "@/components/Sidebar.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    TopNavigation,
+    Sidebar,
   },
 });
 </script>

@@ -1,19 +1,4 @@
-.test {
-  font-size: 50px;
-}
+@import "variables.scss";
 
-.home {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.about {
-  text-align: left;
-  padding: 20px;
-  ol {
-    margin-top: 50px;
-  }
-}
+@import "global.scss";
+@import "sidebar.scss";
