@@ -52,18 +52,18 @@
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: $white;
     margin-bottom: 1rem;
     text-decoration: unset;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: $cyan;
     }
   }
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif !important;
+  font-family: $red-hat-display, Avenir, Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
