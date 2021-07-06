@@ -21,8 +21,11 @@
     }
   }
   #top-navigation {
-    background-color: $gray-200;
+    background-color: $blue;
     padding: 1rem;
+    #brandlogo {
+      height: 30px;
+    }
   }
 }
 
@@ -38,34 +41,40 @@
   background-color: blue;
 }
 
-.home {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.page-content {
+  padding: 2rem;
 }
-
-// #nav {
-//   display: flex;
-//   flex-direction: column;
-//   padding: 30px;
-
-//   a {
-//     font-weight: bold;
-//     color: $white;
-//     margin-bottom: 1rem;
-//     text-decoration: unset;
-
-//     &.router-link-exact-active {
-//       color: $cyan;
-//     }
-//   }
-// }
 
 #app {
   font-family: $red-hat-display, Avenir, Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+
+.analyt-container {
+  position: relative;
+  border: $gray-400 solid 1px;
+  // min-height: 8rem;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  margin-bottom: 0.5rem;
+  flex-direction: column;
+
+  .title {
+    font-weight: 400;
+  }
+  .label {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: -1rem;
+  }
+  .description {
+    font-size: 0.8rem;
+    margin-top: -1rem;
+  }
+  &.analyt-primary {
+    border-right: 10px solid $primary;
+  }
 }

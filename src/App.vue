@@ -3,7 +3,7 @@
     <Sidebar />
     <div id="content-wrapper">
       <div id="top-navigation">
-        <span>Dileepa</span>
+        <img id="brandlogo" alt="Vue logo" src="./assets/logo.png" /><br />
       </div>
       <div class="content">
         <router-view />
